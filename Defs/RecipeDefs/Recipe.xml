@@ -579,8 +579,10 @@
 		<defaultIngredientFilter>
 			<thingDefs>
 				<li>Corpse_Human</li>
-				<li>CorpsesAnimal</li>
 			</thingDefs>
+			<categories>
+				<li>CorpsesAnimal</li>
+			</categories>
 		<specialFiltersToAllow>
 			<li>AllowCorpsesColonist</li>
 			<li>AllowCorpsesStranger</li>
@@ -622,8 +624,10 @@
 		<defaultIngredientFilter>
 			<thingDefs>
 				<li>Corpse_Human</li>
-				<li>CorpsesAnimal</li>
 			</thingDefs>
+			<categories>
+				<li>CorpsesAnimal</li>
+			</categories>
 		<specialFiltersToAllow>
 			<li>AllowCorpsesColonist</li>
 			<li>AllowCorpsesStranger</li>
@@ -759,8 +763,10 @@
 		<defaultIngredientFilter>
 			<thingDefs>
 				<li>Corpse_Human</li>
-				<li>CorpsesAnimal</li>
 			</thingDefs>
+			<categories>
+				<li>CorpsesAnimal</li>
+			</categories>
 		<specialFiltersToAllow>
 			<li>AllowCorpsesColonist</li>
 			<li>AllowCorpsesStranger</li>
