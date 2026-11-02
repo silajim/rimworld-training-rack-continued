@@ -1,0 +1,485 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+  <ThingDef ParentName="BenchBase">
+		<defName>TrainingRack</defName>
+		<label>Training rack</label>
+		<thingClass>Building_WorkTable</thingClass>
+		<description>Training rack with books to learn skills.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/TrainingRack</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,2)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.4</fillPercent>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<!--<constructEffect>ConstructWood</constructEffect>-->
+		<castEdgeShadows>true</castEdgeShadows>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>500</WorkToBuild>
+			<MaxHitPoints>350</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(2,1)</size>
+		<designationCategory>Production</designationCategory>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+  </ThingDef>
+
+  <ThingDef ParentName="BenchBase">
+		<defName>TrainingRackShooting</defName>
+		<label>Training rack shooting</label>
+		<thingClass>Building_WorkTable</thingClass>
+		<description>Training rack with books to learn to shoot better.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/TrainingRackShooting</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,2)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.4</fillPercent>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<!--<constructEffect>ConstructWood</constructEffect>-->
+		<castEdgeShadows>true</castEdgeShadows>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>500</WorkToBuild>
+			<MaxHitPoints>350</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(2,1)</size>
+		<designationCategory>Training_Racks</designationCategory>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+  </ThingDef>
+
+  <ThingDef ParentName="BenchBase">
+		<defName>TrainingRackMelee</defName>
+		<label>Training rack melee</label>
+		<thingClass>Building_WorkTable</thingClass>
+		<description>Training rack with books to learn skills.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/TrainingRackMelee</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,2)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.4</fillPercent>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<!--<constructEffect>ConstructWood</constructEffect>-->
+		<castEdgeShadows>true</castEdgeShadows>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>500</WorkToBuild>
+			<MaxHitPoints>350</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(2,1)</size>
+		<designationCategory>Training_Racks</designationCategory>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+  </ThingDef>
+
+  <ThingDef ParentName="BenchBase">
+		<defName>TrainingRackSocial</defName>
+		<label>Training rack social</label>
+		<thingClass>Building_WorkTable</thingClass>
+		<description>Training rack with books to learn skills.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/TrainingRackSocial</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,2)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.4</fillPercent>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<!--<constructEffect>ConstructWood</constructEffect>-->
+		<castEdgeShadows>true</castEdgeShadows>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>500</WorkToBuild>
+			<MaxHitPoints>350</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(2,1)</size>
+		<designationCategory>Training_Racks</designationCategory>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+  </ThingDef>
+
+  <ThingDef ParentName="BenchBase">
+		<defName>TrainingRackAnimals</defName>
+		<label>Training rack animals</label>
+		<thingClass>Building_WorkTable</thingClass>
+		<description>Training rack with books to learn skills.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/TrainingRackAnimals</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,2)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.4</fillPercent>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<!--<constructEffect>ConstructWood</constructEffect>-->
+		<castEdgeShadows>true</castEdgeShadows>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>500</WorkToBuild>
+			<MaxHitPoints>350</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(2,1)</size>
+		<designationCategory>Training_Racks</designationCategory>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+  </ThingDef>
+  
+  <ThingDef ParentName="BenchBase">
+		<defName>TrainingRackMedicine</defName>
+		<label>Training rack medicine</label>
+		<thingClass>Building_WorkTable</thingClass>
+		<description>Training rack with books to learn skills.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/TrainingRackMedicine</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,2)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.4</fillPercent>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<!--<constructEffect>ConstructWood</constructEffect>-->
+		<castEdgeShadows>true</castEdgeShadows>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>500</WorkToBuild>
+			<MaxHitPoints>350</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(2,1)</size>
+		<designationCategory>Training_Racks</designationCategory>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+  </ThingDef>
+
+  <ThingDef ParentName="BenchBase">
+		<defName>TrainingRackCooking</defName>
+		<label>Training rack cooking</label>
+		<thingClass>Building_WorkTable</thingClass>
+		<description>Training rack with books to learn skills.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/TrainingRackCooking</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,2)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.4</fillPercent>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<!--<constructEffect>ConstructWood</constructEffect>-->
+		<castEdgeShadows>true</castEdgeShadows>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>500</WorkToBuild>
+			<MaxHitPoints>350</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(2,1)</size>
+		<designationCategory>Training_Racks</designationCategory>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+  </ThingDef>
+
+  <ThingDef ParentName="BenchBase">
+		<defName>TrainingRackConstruction</defName>
+		<label>Training rack construction</label>
+		<thingClass>Building_WorkTable</thingClass>
+		<description>Training rack with books to learn skills.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/TrainingRackConstruction</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,2)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.4</fillPercent>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<!--<constructEffect>ConstructWood</constructEffect>-->
+		<castEdgeShadows>true</castEdgeShadows>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>500</WorkToBuild>
+			<MaxHitPoints>350</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(2,1)</size>
+		<designationCategory>Training_Racks</designationCategory>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+  </ThingDef>
+
+  <ThingDef ParentName="BenchBase">
+		<defName>TrainingRackPlants</defName>
+		<label>Training rack Plants</label>
+		<thingClass>Building_WorkTable</thingClass>
+		<description>Training rack with books to learn skills.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/TrainingRackGrowing</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,2)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.4</fillPercent>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<!--<constructEffect>ConstructWood</constructEffect>-->
+		<castEdgeShadows>true</castEdgeShadows>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>500</WorkToBuild>
+			<MaxHitPoints>350</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(2,1)</size>
+		<designationCategory>Training_Racks</designationCategory>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+  </ThingDef>
+
+  <ThingDef ParentName="BenchBase">
+		<defName>TrainingRackMining</defName>
+		<label>Training rack mining</label>
+		<thingClass>Building_WorkTable</thingClass>
+		<description>Training rack with books to learn skills.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/TrainingRackMining</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,2)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.4</fillPercent>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<!--<constructEffect>ConstructWood</constructEffect>-->
+		<castEdgeShadows>true</castEdgeShadows>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>500</WorkToBuild>
+			<MaxHitPoints>350</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(2,1)</size>
+		<designationCategory>Training_Racks</designationCategory>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+  </ThingDef>
+
+  <ThingDef ParentName="BenchBase">
+		<defName>TrainingRackArtistic</defName>
+		<label>Training rack artistic</label>
+		<thingClass>Building_WorkTable</thingClass>
+		<description>Training rack with books to learn skills.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/TrainingRackArtistic</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,2)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.4</fillPercent>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<!--<constructEffect>ConstructWood</constructEffect>-->
+		<castEdgeShadows>true</castEdgeShadows>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>500</WorkToBuild>
+			<MaxHitPoints>350</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(2,1)</size>
+		<designationCategory>Training_Racks</designationCategory>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+  </ThingDef>
+
+  <ThingDef ParentName="BenchBase">
+		<defName>TrainingRackCrafting</defName>
+		<label>Training rack crafting</label>
+		<thingClass>Building_WorkTable</thingClass>
+		<description>Training rack with books to learn skills.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/TrainingRackCrafting</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,2)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.4</fillPercent>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<!--<constructEffect>ConstructWood</constructEffect>-->
+		<castEdgeShadows>true</castEdgeShadows>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>500</WorkToBuild>
+			<MaxHitPoints>350</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(2,1)</size>
+		<designationCategory>Training_Racks</designationCategory>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+  </ThingDef>
+
+  <ThingDef ParentName="BenchBase">
+		<defName>TrainingRackResearch</defName>
+		<label>Training rack intellectual</label>
+		<thingClass>Building_WorkTable</thingClass>
+		<description>Training rack with books to learn skills.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/TrainingRackResearch</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,2)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.4</fillPercent>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<!--<constructEffect>ConstructWood</constructEffect>-->
+		<castEdgeShadows>true</castEdgeShadows>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>500</WorkToBuild>
+			<MaxHitPoints>350</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(2,1)</size>
+		<designationCategory>Training_Racks</designationCategory>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+  </ThingDef>
+
+</Defs>
